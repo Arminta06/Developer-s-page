@@ -1,0 +1,102 @@
+body{
+    background-color: beige;
+}
+.top_section{
+    background-image: url(Images/developer.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text_container{
+    color: white;
+    max-width: 900px;
+    text-align: center;
+   padding: 100px;
+   
+}
+
+.large_text{
+    font-size: 75px;
+    font-weight: 300;
+}
+.extra-large_text{
+    font-size: 150px;
+    font-weight: 400;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    color: yellow;
+   
+
+}
+.grey_section{
+    background-color: grey;
+    padding: 20px;
+    min-height: 5vh;
+}
+.work_text{
+    color: white;
+    text-align: center;
+    font-size:70px ;
+    font-weight: 400;
+    letter-spacing: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 30px;
+    
+}
+.card{
+    max-width: 320px;
+    border-radius: 10px; 
+    box-shadow: 3px 5px 5px gray;
+    transition: 0.2s;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+     box-shadow: 3px 5px 5px gray;
+}
+.card_content h3, p{
+    text-align: center;
+}
+.card_content h3{
+    color: darkblue;
+    font-size: 20px;
+}
+
+.bottom_section{
+    display: flex;
+    margin-top: 30px;
+
+}
+.contact{
+    background-color: darkgreen;
+}
+.about{
+    background-color: darkred;
+}
+
+.contact h2, .about h2{
+       font-size: 50px;
+       font-weight: 400px;
+}
+
+.contact, .about{
+    min-height: 300px;
+    text-align: center;
+   color: white;
+
+}
+
+.contact p, .about p{
+    font-size: 20px;
+}
